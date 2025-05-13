@@ -32,16 +32,15 @@ const Navbar = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-        }}
+          }}
         >
-<img 
-  src="/images/logo.png" 
-  alt="Logo" 
-  style={{ 
-    height: { sm: "20px", lg: "40px" } 
-     }}
- 
-/>
+          <img
+            src="/images/logo.png"
+            alt="Logo"
+            style={{
+              height: { sm: "20px", lg: "40px" },
+            }}
+          />
         </Box>
 
         <Box
@@ -55,43 +54,82 @@ const Navbar = () => {
           }}
         >
           <Button
-            sx={{ color: "white", textTransform: "lowercase", fontWeight: 300, fontFamily: "Manrope"}}
+            sx={{
+              color: "white",
+              textTransform: "lowercase",
+              fontWeight: 300,
+              fontFamily: "Manrope",
+            }}
           >
             home
           </Button>
           <Button
-            sx={{ color: "white", textTransform: "lowercase", fontWeight: 300, fontFamily: "Manrope" }}
+            sx={{
+              color: "white",
+              textTransform: "lowercase",
+              fontWeight: 300,
+              fontFamily: "Manrope",
+            }}
           >
             cases studies
           </Button>
           <Button
-            sx={{ color: "white", textTransform: "lowercase", fontWeight: 300, fontFamily: "Manrope" }}
+            sx={{
+              color: "white",
+              textTransform: "lowercase",
+              fontWeight: 300,
+              fontFamily: "Manrope",
+            }}
           >
             about us
           </Button>
           <Button
-            sx={{ color: "white", textTransform: "lowercase", fontWeight: 300, fontFamily: "Manrope" }}
+            sx={{
+              color: "white",
+              textTransform: "lowercase",
+              fontWeight: 300,
+              fontFamily: "Manrope",
+            }}
           >
             careers
           </Button>
           <Button
-            sx={{ color: "white", textTransform: "lowercase", fontWeight: 300, fontFamily: "Manrope" }}
+            sx={{
+              color: "white",
+              textTransform: "lowercase",
+              fontWeight: 300,
+              fontFamily: "Manrope",
+            }}
           >
             what we do
           </Button>
           <Button
-            sx={{ color: "white", textTransform: "lowercase", fontWeight: 300, fontFamily: "Manrope" }}
+            sx={{
+              color: "white",
+              textTransform: "lowercase",
+              fontWeight: 300,
+              fontFamily: "Manrope",
+            }}
           >
             contact
           </Button>
 
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1, fontFamily: "Manrope" }}>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              gap: 1,
+              fontFamily: "Manrope",
+            }}
+          >
             <img
               src="https://flagcdn.com/us.svg"
               alt="US"
               style={{ width: 20, height: "auto" }}
             />
-            <Typography sx={{ fontSize: 14, fontFamily: "Manrope" }}>EN-US</Typography>
+            <Typography sx={{ fontSize: 14, fontFamily: "Manrope" }}>
+              EN-US
+            </Typography>
             <KeyboardArrowDownIcon sx={{ fontSize: 18 }} />
           </Box>
         </Box>
@@ -111,13 +149,15 @@ const Navbar = () => {
             anchorEl={anchorElNav}
             open={Boolean(anchorElNav)}
             onClose={handleCloseNavMenu}
-            sx={{ display: { xs: "block", md: "none"} }}
+            sx={{ display: { xs: "block", md: "none" } }}
           >
             <MenuItem onClick={handleCloseNavMenu}>
               <Typography sx={{ fontFamily: "Manrope" }}>home</Typography>
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu}>
-              <Typography sx={{ fontFamily: "Manrope" }}>cases studies</Typography>
+              <Typography sx={{ fontFamily: "Manrope" }}>
+                cases studies
+              </Typography>
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu}>
               <Typography sx={{ fontFamily: "Manrope" }}>about us</Typography>
@@ -138,7 +178,9 @@ const Navbar = () => {
                   alt="US"
                   style={{ width: 20, height: "auto" }}
                 />
-                <Typography sx={{ fontSize: 14, fontFamily: "Manrope" }}>EN-US</Typography>
+                <Typography sx={{ fontSize: 14, fontFamily: "Manrope" }}>
+                  EN-US
+                </Typography>
                 <KeyboardArrowDownIcon sx={{ fontSize: 18 }} />
               </Box>
             </MenuItem>
