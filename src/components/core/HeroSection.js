@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import CustomButton from "../CustomButton";
-import ArrowedButton from "../ArrowedButton";
+import CustomButton from '../common/CustomButton'
+import ArrowedButton from '../common/ArrowedButton';
 
 const HeroSection = () => {
   return (

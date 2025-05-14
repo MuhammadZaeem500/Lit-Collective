@@ -36,7 +36,7 @@ const ArrowedButton = ({
   sx={{
     width: 30,
     height: 30,
-    display: 'block', // Add this line
+    display: 'block', 
   }}
 />
 
