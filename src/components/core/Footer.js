@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Grid } from '@mui/material';
-import CustomButton from '../common/CustomButton';
-import ArrowedButton from '../common/ArrowedButton';
+import CustomButton from '../CustomButton';
+import ArrowedButton from '../ArrowedButton';
 
 const Footer = () => {
   return (

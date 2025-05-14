@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Grid, Typography } from '@mui/material';
-import ArrowedButton from '../common/ArrowedButton';
-import CustomButton from '../common/CustomButton';
+import ArrowedButton from '../ArrowedButton';
+import CustomButton from '../CustomButton';
 import BoltIcon from '@mui/icons-material/Bolt';
 
 const HeroSplitSection = () => {
