@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import CustomButton from '../common/CustomButton';
 import ArrowedButton from '../common/ArrowedButton';
 import BoltIcon from '@mui/icons-material/Bolt';
