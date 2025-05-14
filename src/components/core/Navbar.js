@@ -9,7 +9,7 @@ import {
   MenuItem,
   Button,
 } from "@mui/material";
-// import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const Navbar = () => {
@@ -142,7 +142,7 @@ const Navbar = () => {
             onClick={handleOpenNavMenu}
             color="inherit"
           >
-            {/* <MenuIcon /> */}
+            <MenuIcon />
           </IconButton>
 
           <Menu
