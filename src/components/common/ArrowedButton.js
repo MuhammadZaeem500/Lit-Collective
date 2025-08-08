@@ -1,14 +1,13 @@
-import React from 'react';
-import { Button, Box } from '@mui/material';
+import React from "react";
+import { Button, Box } from "@mui/material";
 
 const ArrowedButton = ({
   children,
-  variant = 'outlined',
-  color = 'inherit',
+  variant = "outlined",
+  color = "inherit",
   onClick,
-  sx = { 
-   },
-  arrowSrc = '/images/Arrow.png', 
+  sx = {},
+  arrowSrc = "/images/Arrow.png",
   ...props
 }) => {
   return (
@@ -17,12 +16,12 @@ const ArrowedButton = ({
       color={color}
       onClick={onClick}
       sx={{
-        textTransform: 'none',
-        padding: { xs: '8px 16px', md: '10px 20px' },
-        fontFamily: 'Manrope',
-        display: 'flex',
+        textTransform: "none",
+        padding: { xs: "8px 16px", md: "10px 20px" },
+        fontFamily: "Manrope",
+        display: "flex",
         borderRadius: 0,
-        alignItems: 'center',
+        alignItems: "center",
         gap: 1,
         ...sx,
       }}
@@ -30,16 +29,15 @@ const ArrowedButton = ({
     >
       {children}
       <Box
-  component="img"
-  src={arrowSrc}
-  alt="arrow"
-  sx={{
-    width: 30,
-    height: 30,
-    display: 'block', 
-  }}
-/>
-
+        component="img"
+        src={arrowSrc}
+        alt="arrow"
+        sx={{
+          width: { xs: 0, md: 30 },
+          height: { xs: 0, md: 30 },
+          display: { xs: "none", md: "block" },
+        }}
+      />
     </Button>
   );
 };

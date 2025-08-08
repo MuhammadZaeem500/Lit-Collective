@@ -134,7 +134,6 @@ const Navbar = () => {
           </Box>
         </Box>
 
-        {/* Mobile Menu Icon */}
         <Box sx={{ display: { xs: "flex", md: "none" } }}>
           <IconButton
             size="large"

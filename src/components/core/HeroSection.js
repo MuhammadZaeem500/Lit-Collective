@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import CustomButton from '../common/CustomButton'
-import ArrowedButton from '../common/ArrowedButton';
+import CustomButton from "../common/CustomButton";
+import ArrowedButton from "../common/ArrowedButton";
 
 const HeroSection = () => {
   return (
@@ -46,8 +46,24 @@ const HeroSection = () => {
             marginLeft: "15%",
           }}
         >
-          <ArrowedButton>Play showreel</ArrowedButton>
-          <CustomButton>About us</CustomButton>
+          <ArrowedButton>
+            <Typography
+              sx={{
+                fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1.2rem" },
+              }}
+            >
+              Play showreel
+            </Typography>
+          </ArrowedButton>
+          <CustomButton>
+            <Typography
+              sx={{
+                fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1.2rem" },
+              }}
+            >
+              About us
+            </Typography>
+          </CustomButton>
         </Box>
       </Box>
     </Box>

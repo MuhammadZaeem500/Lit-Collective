@@ -14,7 +14,6 @@ const Footer = () => {
       }}
     >
       <Grid container alignItems="center" spacing={4}>
-        {/* Left Section */}
         <Grid item xs={12} md={6} sx={{ textAlign: { xs: 'center', md: 'left' } }}>
           <Typography
             variant="h4"
@@ -41,7 +40,6 @@ const Footer = () => {
           </Typography>
         </Grid>
 
-        {/* Right Section */}
         <Grid item xs={12} md={6}>
           <Box
             sx={{
@@ -52,7 +50,6 @@ const Footer = () => {
               gap: 2,
             }}
           >
-            {/* Buttons */}
             <Box sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, gap: 2, flexWrap: 'wrap',marginBottom: { xs: 2, md: "100px" } }}> 
               <ArrowedButton>Talk to a specialist</ArrowedButton>
               <CustomButton
@@ -69,7 +66,6 @@ const Footer = () => {
               </CustomButton>
             </Box>
 
-            {/* Social Icons */}
             <Box
               sx={{
                 display: 'flex',
@@ -95,7 +91,7 @@ const Footer = () => {
                     sx={{
                       width: '24px',
                       height: '24px',
-                      imageRendering: 'crisp-edges', // or 'pixelated'
+                      imageRendering: 'crisp-edges', 
                     }}
                   />
                   <Typography
