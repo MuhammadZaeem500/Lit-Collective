@@ -8,11 +8,8 @@ const BannerSection = () => {
         height: "100vh",
         backgroundColor: "#000",
         position: "relative",
-        display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        overflow: "hidden",
-        padding: { xs: 2, sm: 4, md: 6 },
         marginTop: { xs: "-240px", md: "-100px" },
       }}
     >
