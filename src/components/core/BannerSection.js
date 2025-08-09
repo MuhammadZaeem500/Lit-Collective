@@ -5,7 +5,7 @@ const BannerSection = () => {
   return (
     <Box
       sx={{
-        height: "100vh",
+        height: { xs: "50vh", sm: "100vh", md: "100vh" },
         backgroundColor: "#000",
         position: "relative",
         justifyContent: "center",
