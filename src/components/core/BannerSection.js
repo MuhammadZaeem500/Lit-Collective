@@ -13,7 +13,7 @@ const BannerSection = () => {
         alignItems: "center",
         overflow: "hidden",
         padding: { xs: 2, sm: 4, md: 6 },
-        marginTop: { xs: "-300px", md: "-100px" },
+        marginTop: { xs: "-240px", md: "-100px" },
       }}
     >
       <Box
